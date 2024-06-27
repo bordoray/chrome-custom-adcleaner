@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "kurina",
+    "version": "1.0",
+    "description": "hide specific divs based on id",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+}
